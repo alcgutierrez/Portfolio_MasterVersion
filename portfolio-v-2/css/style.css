@@ -1,0 +1,182 @@
+
+/*media queries */
+@media screen and (max-width: 320px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+  #heading {
+    font-size: 40px;
+  }
+  .fa {
+    font-size: 10px;
+  }
+ 
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+ #heading {
+    font-size: 24px;
+    font-size: 8vw;
+  }
+  
+  .fa {
+    font-size: 10px;
+  }
+ 
+}
+@media screen and (min-width: 481px) {
+  /* comes into effect for screens larger than or equal to 481 pixels */
+  #heading {
+    font-size: 28px;
+    font-size: 6vw;
+  }
+  
+  .fa {
+    font-size: 10px;
+  }
+  
+}
+
+
+/*end of media queries*/
+
+/*Controls drop-down navbar*/
+/* Dropdown Button */
+.dropbtn {
+   background-color: rgba(0,0,0,0.0);
+    color: white;
+    padding: 16px 10px;
+    font-size: 16px;
+  line-height:5px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #C5A9AF}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #A57982;
+}
+/*Controls navbar - excluding text*/
+.navbar{
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0,0,0,0.2);
+  padding:7px 30px;
+
+  
+}
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0,0,0,0.2);
+  padding:16px 30px;
+  line-height:50px; 
+  text-align: center;
+}
+
+/*Controls navbar text*/
+
+nav a{
+  color:white;
+  border-left: 10px solid rgba(0,0,0,0);
+  border-right: 6px transparent #fff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+}
+
+
+/*Controls the background image*/
+body {
+  background-image: url("https://blogs.ubc.ca/agutierrez/files/2016/08/IMG_9900.jpg");
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 70px;
+}
+
+#Alyssa {
+  text-align: center;
+
+}
+
+#About {
+  width: 90%;
+  padding-left: 30px;
+}
+
+
+#Projects {
+  height: 55%;
+  width: 90%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5%;
+  display: inline-block;
+  background-color: rgba(139, 182, 203, 0.11);
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+}
+
+#Contact{
+  width: 90%;
+  height: 45%;
+  padding-top: 1%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 1%;
+  background-color: rgba(139, 182, 203, 0.11);
+  
+}
+
+h5{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
