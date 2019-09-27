@@ -311,7 +311,14 @@ h6{
   text-align: center;
 }
 
-
+.projects-container {
+  margin: 0 0 0 0;
+  padding-top: 2%;
+  padding-bottom: 12%;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
 #Projects {
   height: 55%;
   margin: 0;
