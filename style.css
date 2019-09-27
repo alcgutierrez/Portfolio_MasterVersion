@@ -58,6 +58,12 @@ p {
     display: inline;
     padding-right: 0.5em;
   }
+  h1 {
+    font-size: 16px;
+  }
+  h6 {
+    font-size: 12px;
+  }
   .mini-links {
     padding-top: 1em;
   }
