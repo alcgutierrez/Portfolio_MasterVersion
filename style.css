@@ -37,8 +37,8 @@ a:hover, i:hover {
   padding-top: 6em;
 }
 
-.main-links {
-    color: #6F6866;
+a {
+    color: #232026;
 }
 
 p {
@@ -193,7 +193,7 @@ p {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #A2B6DB}
+.dropdown-content a:hover {background-color: #D8CBC7}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -202,7 +202,6 @@ p {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #A2B6DB;
     width: 2em;
     height: 1.5em;
 }
