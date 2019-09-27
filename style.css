@@ -37,6 +37,9 @@ a:hover, i:hover {
   padding-top: 6em;
 }
 
+.main-links {
+    color: #6F6866;
+}
 
 p {
   font-family: 'Open Sans', sans-serif;
